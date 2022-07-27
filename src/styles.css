@@ -53,3 +53,8 @@ h1 {
 	font-weight: lighter;
 	margin: auto;
 }
+
+blockquote {
+	font-style: italic;
+	text-align: left;
+}
