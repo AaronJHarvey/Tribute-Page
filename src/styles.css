@@ -51,7 +51,7 @@ h1 {
 	-moz-background-clip: text;
 	-moz-text-fill-color: transparent;
 	font-weight: lighter;
-	margin: auto;
+	margin-bottom: 0;
 }
 
 blockquote {
