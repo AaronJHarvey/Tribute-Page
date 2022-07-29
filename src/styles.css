@@ -80,6 +80,11 @@ blockquote {
 	border-radius: 10px;
 }
 
+.timeline-event {
+	margin: 0;
+	font: 1.15em;
+}
+
 .timeline-date--right {
 	text-align: right;
 }
