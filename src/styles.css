@@ -81,3 +81,14 @@ blockquote {
 	position: relative;
 	background-color: black;
 }
+
+.timeline-point {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 15px;
+	height: 15px;
+	background-color: red;
+	border-radius: 50%;
+}
