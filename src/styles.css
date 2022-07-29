@@ -89,6 +89,10 @@ blockquote {
 	text-align: right;
 }
 
+.timeline-date-left {
+	text-align: left;
+}
+
 .timeline-middle {
 	position: relative;
 	background-color: black;
