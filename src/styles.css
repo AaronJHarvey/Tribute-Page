@@ -58,3 +58,13 @@ blockquote {
 	font-style: italic;
 	text-align: left;
 }
+
+.timeline {
+	margin: 0 auto;
+	max-width: 100%;
+	padding: 25px;
+	display: grid;
+	grid-template-columns: 1fr 3px 1fr;
+	font-family: 'Fira Sans', Sans Serif;
+	color: black;
+}
