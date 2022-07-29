@@ -76,3 +76,8 @@ blockquote {
 .timeline-date--right {
 	text-align: right;
 }
+
+.timeline-middle {
+	position: relative;
+	background-color: black;
+}
