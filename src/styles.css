@@ -68,3 +68,11 @@ blockquote {
 	font-family: 'Fira Sans', Sans Serif;
 	color: black;
 }
+
+.timeline-component {
+	margin: 0 20px 20px 20px;
+}
+
+.timeline-date--right {
+	text-align: right;
+}
