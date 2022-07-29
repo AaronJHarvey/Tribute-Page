@@ -83,6 +83,7 @@ blockquote {
 .timeline-event {
 	margin: 0;
 	font: 1.15em;
+	text-align: start;
 }
 
 .timeline-date--right {
