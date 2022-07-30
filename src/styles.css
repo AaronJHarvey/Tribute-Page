@@ -88,10 +88,11 @@ blockquote {
 
 .timeline-date--right {
 	text-align: right;
+	display: block;
 }
 
 .timeline-date-left {
-	text-align: left;
+	text-align: start;
 }
 
 .timeline-middle {
@@ -108,4 +109,14 @@ blockquote {
 	height: 15px;
 	background-color: red;
 	border-radius: 50%;
+}
+
+.image {
+	display: flex;
+}
+
+.image-1 {
+	align-content: center;
+	height: auto;
+	max-width: 50%;
 }
