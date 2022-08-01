@@ -27,6 +27,13 @@ body {
 	text-align: center;
 }
 
+#main {
+	margin: 25px 8px;
+	padding: 10px;
+	background-color: blue;
+	border-radius: 25px;
+}
+
 #img-div {
 	background-color: rgb(255, 255, 255);
 	width: 60%;
