@@ -79,6 +79,57 @@ h1 {
 	margin-bottom: 0;
 }
 
+#content {
+	max-width: 550px;
+	margin: 5vh auto;
+}
+
+.tribute-quote blockquote {
+	margin: 10px 10px 0;
+	background: #efefef;
+	padding: 20px 60px;
+	position: relative;
+	border: none;
+	border-radius: 8px;
+	font-style: italic;
+}
+
+.tribute-quote blockquote:before,
+.tribute-quote blockquote:after {
+	content: '\201C';
+	position: absolute;
+	font-size: 65px;
+	line-height: 1;
+	color: #757f9a;
+	font-style: normal;
+}
+
+.tribute-quote blockquote:before {
+	top: 0;
+	left: 10px;
+}
+
+.tribute-quote blockquote:after {
+	content: '\201D';
+	right: 10px;
+	bottom: -0.5em;
+}
+
+.tribute-quote div {
+	width: 0;
+	height: 0;
+	border-left: 0 solid transparent;
+	border-right: 20px solid transparent;
+	border-top: 20px solid #efefef;
+	margin: 0 0 0 60px;
+}
+
+.tribute-quote p {
+	margin: 8px 0 0 20px;
+	text-align: left;
+	color: #fff;
+}
+
 /* blockquote {
 	font-style: italic;
 	text-align: center;
@@ -103,7 +154,6 @@ blockquote:after {
 	color: #757f9a;
 	font-style: normal;
 } */
-
 .timeline {
 	margin: 0 auto;
 	max-width: 100%;
