@@ -25,12 +25,13 @@
 
 body {
 	text-align: center;
+	margin: 0;
 }
 
 #main {
 	margin: 25px 8px;
 	padding: 10px;
-	background-color: blue;
+	background-color: rgba(66, 67, 79, 0.399);
 	border-radius: 25px;
 }
 
@@ -41,6 +42,7 @@ body {
 	padding: 10px;
 	/* padding: .625rem; */
 	margin: auto;
+	border-radius: 10px;
 }
 
 #image {
@@ -54,9 +56,9 @@ h1 {
 	font-family: Crisish;
 	background-image: linear-gradient(
 		180deg,
-		hsla(0, 0%, 0%, 1) 16%,
+		rgba(0, 0, 0, 0.854) 16%,
 		hsla(240, 71%, 61%, 1) 31%,
-		hsla(240, 44%, 83%, 1) 48%,
+		rgba(91, 91, 165, 0.417) 32%,
 		hsla(240, 71%, 61%, 1) 62%,
 		hsla(0, 0%, 0%, 1) 84%
 	);
