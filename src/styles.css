@@ -51,6 +51,12 @@ body {
 	display: block;
 }
 
+#img-caption {
+	background-color: rgba(221, 221, 13, 0.912);
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
 h1 {
 	font-size: 3em;
 	font-family: Crisish;
